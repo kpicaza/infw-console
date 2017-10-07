@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1507397800">
+  <project timestamp="1507397800">
+    <package name="InFw\Console\Config">
+      <file name="/home/kpicaza/server/test-qh-skel/src/console/src/InFw/Console/Config/LoadCommands.php">
+        <class name="LoadCommands" namespace="InFw\Console\Config">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="7" coveredelements="0"/>
+        </class>
+        <line num="11" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="16" type="method" name="__invoke" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <metrics loc="19" ncloc="19" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="7" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="InFw\Console">
+      <file name="/home/kpicaza/server/test-qh-skel/src/console/src/InFw/Console/Console.php">
+        <class name="Console" namespace="InFw\Console">
+          <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="15" elements="18" coveredelements="16"/>
+        </class>
+        <line num="15" type="method" name="__construct" visibility="public" complexity="1" crap="1.00" count="1"/>
+        <line num="17" type="stmt" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="27" type="method" name="setEnv" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <metrics loc="39" ncloc="39" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="15" elements="18" coveredelements="16"/>
+      </file>
+    </package>
+    <package name="InFw\Console\Listener">
+      <file name="/home/kpicaza/server/test-qh-skel/src/console/src/InFw/Console/Listener/EnvOptionListener.php">
+        <class name="EnvOptionListener" namespace="InFw\Console\Listener">
+          <metrics complexity="6" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="10" elements="16" coveredelements="11"/>
+        </class>
+        <line num="18" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="24" type="method" name="__invoke" visibility="public" complexity="5" crap="6.20" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <metrics loc="42" ncloc="42" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="10" elements="16" coveredelements="11"/>
+      </file>
+    </package>
+    <metrics files="3" loc="100" ncloc="100" classes="3" methods="6" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="25" elements="41" coveredelements="27"/>
+  </project>
+</coverage>
