@@ -10,7 +10,13 @@ use Symfony\Component\Console\Event\ConsoleCommandEvent;
 
 class EnvOptionListener
 {
-    const MESSAGE = 'In Framework Console tool working in %s environment.';
+    const MESSAGE = '<info>     ___         _____                                            _    
+    |_ _|_ __   |  ___| __ __ _ _ __ ___   _____      _____  _ __| | __
+     | || \'_ \  | |_ | \'__/ _` | \'_ ` _ \ / _ \ \ /\ / / _ \| \'__| |/ /
+     | || | | | |  _|| | | (_| | | | | | |  __/\ V  V / (_) | |  |   < 
+    |___|_| |_| |_|  |_|  \__,_|_| |_| |_|\___| \_/\_/ \___/|_|  |_|\_\
+                                                                        
+    Working in %s environment.</info>';
 
     protected $application;
     protected $rootDir;
