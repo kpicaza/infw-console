@@ -2,6 +2,7 @@
 
 namespace InFw\Console;
 
+use InFw\Console\Config\LoadCommands;
 use InFw\Console\Listener\EnvOptionListener;
 use Symfony\Component\Console\Application;
 use Symfony\Component\Console\ConsoleEvents;
@@ -22,6 +23,8 @@ class Console extends Application
             $this,
             realpath($path)
         ), 1000);
+
+        (new LoadCommands($this))();
     }
 
     public function setEnv(string $env = self::ENV)

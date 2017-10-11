@@ -2,6 +2,7 @@
 
 namespace InFw\Console\Config;
 
+//use InFw\Generator\Command\CreateUseCase;
 use Symfony\Component\Console\Application;
 
 class LoadCommands
@@ -15,5 +16,8 @@ class LoadCommands
 
     public function __invoke()
     {
+        $this->application->addCommands([
+//           new CreateUseCase()
+        ]);
     }
 }
