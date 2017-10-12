@@ -14,6 +14,12 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../*"
+        }
+    ],
     "require": {
         "php" : "^7.0",
         "roave/security-advisories": "dev-master",

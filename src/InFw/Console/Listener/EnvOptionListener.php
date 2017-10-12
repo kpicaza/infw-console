@@ -31,12 +31,15 @@ class EnvOptionListener
     {
         $input = $event->getInput();
         $env = $input->getOption('env');
+        $hasEnv = Console::ENV === $env;
 
-        if (class_exists(Dotenv::class)) {
-            $dotenv = new Dotenv(
-                $this->rootDir,
-                Console::ENV === $env ? null : '.env.' . $env
-            );
+        $envFileName = '.env' . ($hasEnv ? '' : '.' . $env);
+
+        if (
+            class_exists(Dotenv::class)
+            && file_exists($this->rootDir . $envFileName)
+        ) {
+            $dotenv = new Dotenv($this->rootDir, $hasEnv ? null : '.env.' . $env);
             $dotenv->load();
         }
 
