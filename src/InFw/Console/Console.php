@@ -23,8 +23,6 @@ class Console extends Application
             $this,
             realpath($path)
         ), 1000);
-
-        (new LoadCommands($this))();
     }
 
     public function setEnv(string $env = self::ENV)
