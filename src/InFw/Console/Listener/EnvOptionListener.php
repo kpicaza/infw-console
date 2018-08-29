@@ -35,8 +35,7 @@ class EnvOptionListener
 
         $envFileName = '.env' . ($hasEnv ? '' : '.' . $env);
 
-        if (
-            class_exists(Dotenv::class)
+        if (class_exists(Dotenv::class)
             && file_exists($this->rootDir . $envFileName)
         ) {
             $dotenv = new Dotenv($this->rootDir, $hasEnv ? null : '.env.' . $env);

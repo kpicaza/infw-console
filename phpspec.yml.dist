@@ -1,6 +1,6 @@
 extensions:
   Memio\SpecGen\MemioSpecGenExtension: ~
-  PhpSpecCodeCoverage\CodeCoverageExtension:
+  LeanPHP\PhpSpec\CodeCoverage\CodeCoverageExtension:
     format:
       - clover
     whitelist:

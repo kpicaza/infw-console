@@ -10,19 +10,8 @@ class ConfigProvider
     {
         return [
             'console' => [
-                'factories' => [
-
-                ],
-                'invokables' => [
-
-                ],
                 'helper-sets' => [
 
-                ],
-            ],
-            'dependencies' => [
-                'factories' => [
-                    Console::class => ConsoleFactory::class
                 ],
             ],
         ];
